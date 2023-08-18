@@ -10,6 +10,8 @@ Use the `psql -U development` command to login to the PostgreSQL server with the
 
 Create a database with the command `CREATE DATABASE scheduler_development;`.
 
+Create a database with the command `CREATE DATABASE scheduler_test;`.
+
 Copy the `.env.example` file to `.env.development` and fill in the necessary PostgreSQL configuration. The `node-postgres` library uses these environment variables by default.
 
 ```
